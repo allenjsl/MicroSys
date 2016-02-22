@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Boxy.master.cs" Inherits="EyouSoft.WEB.mp.Boxy" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <link href="/css/basic.css" rel="stylesheet" type="text/css" />
+    <link href="/uploadify3_2_1/uploadify.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />    
+    <link href="/css/kaifa.css?v=0.0.0.1" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/js/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="/js/jquery.boxy.js"></script>
+    <script type="text/javascript" src="/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="/js/table-toolbar.js"></script>
+    <script type="text/javascript" src="/js/enow.core.js?v=0.0.0.1"></script>
+    <script type="text/javascript" src="/js/datepicker/wdatePicker.js"></script>
+    <script type="text/javascript" src="/js/utilsuri.js"></script>
+    <script src="/uploadify3_2_1/jquery.uploadify.js" type="text/javascript"></script>    
+
+    <!--[if lte IE 7]>
+    <script type="text/javascript" src="/js/unitpngfix.js"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <script type="text/javascript" src="/js/json2.js"></script>
+    <![endif]-->
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="alertbox-outbox">
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

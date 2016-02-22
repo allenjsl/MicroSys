@@ -1,0 +1,51 @@
+*{ margin: 0; padding: 0;}
+body{background:#fff;font-family:Arial, simsun, sans-serif,"宋体",microsoft yahei; font-size:12px; line-height:1.5;}
+img { border: 0 none; vertical-align:middle;}
+ul,ul li { list-style-type: none;}
+h1,h2,h3,h4,h5,h6{ font-size:14px;}
+table{ border-collapse:collapse;}
+input,select{vertical-align:middle;outline:none;}
+input, select, textarea{ font-size:100%;}
+button{ border:none 0; cursor:pointer; outline:none;}
+a:focus {outline:none;}
+i, em, cite,s {font-style:normal;}
+.fixed:after { content: "."; display: block; clear: both; height: 0; font-size:0; visibility: hidden; }
+.fixed { display: block; min-height: 1%; }
+*html .fixed { height: 1%; }
+.clear{ clear:both;}
+a{ cursor:pointer;text-decoration:none; color:#000;}
+
+/****basic******/
+.floatL{ float:left;}
+.floatR{ float:right;}
+.mt10{ margin-top:10px;}
+.mt20{ margin-top:20px;}
+
+.font12{ font-size:12px;}
+.font20{ font-size:20px;}
+
+.fontred{ color:#f00;}
+.fontgray{ color:#585858;}
+
+.formsize120{width:120px;}
+.formsize50{width:50px;}
+.formsize80{width:80px;}
+
+
+.price{ font-family:Arial;}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {cursor: pointer; border:none 0;}
+input[type="button"],input[type="submit"]{-webkit-appearance:none;}
+button:active:hover,input[type="reset"]:active:hover,input[type="button"]:active:hover,input[type="submit"]:active:hover{padding:0;}
+
+
+.radius{border-radius:50%;-webkit-border-radius:50%; -moz-border-radius:50%;}
+
+.input-txt{ height:29px; line-height:29px; border:#e4e4e4 solid 1px; padding-left:5px;}
+
+.blue_btn{ background:#2cb4ff; height:28px; line-height:28px; padding:0 10px; color:#fff; display:inline-block; margin-right:5px;border-radius:4px;-webkit-border-radius:4px; -moz-border-radius:4px; font-size:14px;}
+
+/******search*****/
+.searchbox{background:url(../images/s-ico.gif) no-repeat 15px center; padding-left:50px;}
+.searchbox p{ line-height:31px;padding:5px 0 5px 8px;  background:url(../images/search-l.gif)  repeat-y left;} 
+.searchbox .search-btn{ background:url(../images/searchbtn.jpg) no-repeat; width:72px; height:31px; border:none 0; margin-left:10px; text-indent:-9999px;}

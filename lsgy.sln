@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.Document", "EyouSoft.Document\EyouSoft.Document.csproj", "{BA8F281E-8A2B-4A80-A02E-AF81131940B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.Model", "EyouSoft.Model\EyouSoft.Model.csproj", "{CE44EF7E-60EE-4F5B-9B04-FB3F8C1583E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.DAL", "EyouSoft.DAL\EyouSoft.DAL.csproj", "{5B435486-A90A-4F40-B04F-5E51FA713A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.BLL", "EyouSoft.BLL\EyouSoft.BLL.csproj", "{548EF787-08D1-452A-9D42-8D13AF568AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.WEB", "EyouSoft.WEB\EyouSoft.WEB.csproj", "{58E06DB3-B446-485D-807B-5958AA7C7BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.Toolkit", "EyouSoft.Toolkit\EyouSoft.Toolkit.csproj", "{3961BC68-41DC-4EC6-9ACE-9B6870FD4D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyouSoft.Security.Membership", "EyouSoft.Security.Membership\EyouSoft.Security.Membership.csproj", "{630F1A82-3672-4726-A6FE-00C5D1D1AA22}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 8
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EyouSoft.BLL\\EyouSoft.BLL.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = EyouSoft.BLL\\
+		SccProjectUniqueName2 = EyouSoft.DAL\\EyouSoft.DAL.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = EyouSoft.DAL\\
+		SccProjectUniqueName3 = EyouSoft.Document\\EyouSoft.Document.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = EyouSoft.Document\\
+		SccProjectUniqueName4 = EyouSoft.Model\\EyouSoft.Model.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = EyouSoft.Model\\
+		SccProjectUniqueName5 = EyouSoft.Security.Membership\\EyouSoft.Security.Membership.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = EyouSoft.Security.Membership\\
+		SccProjectUniqueName6 = EyouSoft.Toolkit\\EyouSoft.Toolkit.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = EyouSoft.Toolkit\\
+		SccProjectUniqueName7 = EyouSoft.WEB\\EyouSoft.WEB.csproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = EyouSoft.WEB\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA8F281E-8A2B-4A80-A02E-AF81131940B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8F281E-8A2B-4A80-A02E-AF81131940B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8F281E-8A2B-4A80-A02E-AF81131940B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8F281E-8A2B-4A80-A02E-AF81131940B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE44EF7E-60EE-4F5B-9B04-FB3F8C1583E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE44EF7E-60EE-4F5B-9B04-FB3F8C1583E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE44EF7E-60EE-4F5B-9B04-FB3F8C1583E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE44EF7E-60EE-4F5B-9B04-FB3F8C1583E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B435486-A90A-4F40-B04F-5E51FA713A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B435486-A90A-4F40-B04F-5E51FA713A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B435486-A90A-4F40-B04F-5E51FA713A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B435486-A90A-4F40-B04F-5E51FA713A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548EF787-08D1-452A-9D42-8D13AF568AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548EF787-08D1-452A-9D42-8D13AF568AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548EF787-08D1-452A-9D42-8D13AF568AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548EF787-08D1-452A-9D42-8D13AF568AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E06DB3-B446-485D-807B-5958AA7C7BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E06DB3-B446-485D-807B-5958AA7C7BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E06DB3-B446-485D-807B-5958AA7C7BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E06DB3-B446-485D-807B-5958AA7C7BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3961BC68-41DC-4EC6-9ACE-9B6870FD4D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3961BC68-41DC-4EC6-9ACE-9B6870FD4D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3961BC68-41DC-4EC6-9ACE-9B6870FD4D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3961BC68-41DC-4EC6-9ACE-9B6870FD4D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630F1A82-3672-4726-A6FE-00C5D1D1AA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630F1A82-3672-4726-A6FE-00C5D1D1AA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630F1A82-3672-4726-A6FE-00C5D1D1AA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630F1A82-3672-4726-A6FE-00C5D1D1AA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

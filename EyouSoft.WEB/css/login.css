@@ -1,0 +1,44 @@
+﻿body{ background:url(../images/login_bg.jpg) repeat-x left top;}
+.login_head{width:100%; height:98px;}
+.login_headbox{width:1000px; height:98px; margin:0 auto;}
+.login_headbox img{ margin-top:14px;}
+
+.login_banner{width:100%; height:468px; background:url(../images/login_banner.jpg) no-repeat center top;}
+.login_warp{width:1000px; height:468px; margin:0 auto; position:relative;}
+
+.login_bar{width:312px; height:280px;background:url(../images/login_bar.png) no-repeat center top; position:absolute; top:0; right:0; padding-top:127px;}
+
+.login_box{width:220px; margin:0 auto;}
+.login_box li{ width:220px; height:auto; padding-bottom:10px;}
+
+.login_box li .inputbk{ border:#b2b2b2 solid 1px; height:30px; line-height:30px; width:208px; color:#999; font-size:14px;font-family:"microsoft yahei"; padding-left:10px;}
+
+.login_btn{ width:220px; height:36px;border:none 0; background:#ef4349;font-size:14px;font-family:"microsoft yahei"; color:#fff; text-align:center;}
+
+.login_box li .g,.login_box li .c{width:110px; height:36px; line-height:36px; float:left; display:inline-block;font-size:14px;font-family:"microsoft yahei"; color:#fff; text-align:center;}
+.login_box li .g{ background:#595b59;}
+.login_box li .c{ background:#979897;}
+
+.login_foot{width:100%;}
+.login_footbox{width:1000px; margin:0 auto;}
+.login_about{ padding-left:70px; line-height:30px;font-family:"microsoft yahei"; font-size:16px; color:#7d8e99;padding-right:400px; position:relative; letter-spacing:3px;}
+.login_about img{ position:absolute; right:78px; top:-20px;}
+
+.foot_txt{text-align:center; color:#cbcbcb;font-family:"microsoft yahei"; padding-bottom:20px;}
+
+
+
+/****注册*******/
+.reg_form{width:1000px; margin:0 auto;overflow:hidden; color:#2c2c2c; border-top:#dfdfdf solid 1px;}
+.reg_form ul{ padding:24px 0 10px 20px;}
+.reg_form li{line-height:36px;width:100%;padding-bottom:13px;}
+.reg_form li .name{width:200px;padding-right:10px;text-align:right; float:left;}
+
+.reg_btn{ padding-left:230px;}
+.reg_btn input{width:180px; height:42px; background:#ff711b; color:#fff; font-size:16px;_border:none 0;font-family:"Microsoft Yahei";}
+
+.input_bk{ height:36px; line-height:36px; padding-left:5px; border:#dfdfdf solid 1px;color:#a4a4a4;}
+
+.formsize100{width:100px;}
+.formsize350{width:350px;}
+.font_red{ color:#f00;}
